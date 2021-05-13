@@ -7,9 +7,9 @@
     flex-direction: column;
     align-items: center;
 
-
     h1{
         font-size: 50px;
+        text-shadow: 40px 16px 12px rgba(0,0,0,0.5);        
     }
 
     ul{
@@ -17,6 +17,7 @@
         padding: 0;
         list-style: none;
         display: flex;
+        text-shadow: 27px 16px 8px #000;
     }
 
     .container{
@@ -25,6 +26,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        
     }
 
     .item{
@@ -39,11 +41,13 @@
         color: #fff;
         position: relative;
         transition: all 1s ease-in-out;
+        box-shadow: 20px 10px 10px -3px rgba(0,0,0,0.61);
         
         h3{
             position: absolute;
             font-size: 20px;
             text-align: center;
+            
         }
         img{
             max-width: 100%;

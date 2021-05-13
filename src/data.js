@@ -17,31 +17,41 @@ export const webPortfolio = [
         id:1,
         title:'eComerce fullstack MERN App Project',
         img:'img/eComerce_MERN_Project.jpg',
-        link: 'https://ecomercemernproshopapp.herokuapp.com/'
+        link: 'https://ecomercemernproshopapp.herokuapp.com/',
+        description:'eComerce fullstack MERN App Project done during MERN UDEMY Course',
+        logo:'img/globe.png'
     },
     {
         id:2,
         title:'Next JS fullstack Music Events App Project',
         img:'img/next_js_dj_music_events.jpg',
-        link: 'https://ecomercemernproshopapp.herokuapp.com/'
+        link: 'https://ecomercemernproshopapp.herokuapp.com/',
+        description:'Next JS fullstack  App Project done during Next JS  UDEMY Course',
+        logo:'img/globe.png'
     },
     {
         id:3,
         title:'Next JS Strapi Backend integration for Music Events App Project',
         img:'img/strapi_backed_dj_music_eventsjpg.jpg',
-        link: 'https://dj-music-events-backend.herokuapp.com/admin/plugins/content-manager/collectionType/application::events.events?page=1&pageSize=10&_sort=name:ASC'
+        link: 'https://dj-music-events-backend.herokuapp.com/admin/plugins/content-manager/collectionType/application::events.events?page=1&pageSize=10&_sort=name:ASC',
+        description:'Strapi Backend integration into a Next JS App Project done during Next JS  UDEMY Course',
+        logo:'img/globe.png'
     },
     {
         id:4, 
         title:'JS Isenct Catch Game',
         img:'img/isenct_catch_game.jpg',
-        link: 'https://rostyslavl.github.io/Isenct-catch-game/'
+        link: 'https://rostyslavl.github.io/Isenct-catch-game/',
+        description:'JS Isenct Catch Game Web App Project done during 50 Projects In 50 Days UDEMY Course',
+        logo:'img/globe.png'
     },
     {
         id:5, 
         title:'React Quiz Creation App',
         img:'img/react_quiz.jpg',
-        link: 'https://react-quiz-refactored.firebaseapp.com/quiz-creator'
+        link: 'https://react-quiz-refactored.firebaseapp.com/quiz-creator',
+        description:'React Quiz App Project done during React UDEMY Course',
+        logo:'img/globe.png'
     },
 ]
 
@@ -59,7 +69,9 @@ export const backEndPortfolio = [
         id:1,
         title:'Next JS Strapi Backend integration for Music Events App Project',
         img:'img/strapi_backed_dj_music_eventsjpg.jpg',
-        link: 'https://dj-music-events-backend.herokuapp.com/admin/plugins/content-manager/collectionType/application::events.events?page=1&pageSize=10&_sort=name:ASC'
+        link: 'https://dj-music-events-backend.herokuapp.com/admin/plugins/content-manager/collectionType/application::events.events?page=1&pageSize=10&_sort=name:ASC',
+        logo:'img/globe.png'
+        
     },
 ]
 
@@ -68,25 +80,103 @@ export const frontendPortfolio = [
         id:1,
         title:'Landing Page Project ',
         img:'img/landing_page_project_practise.jpg',
-        link: 'https://rostyslavl.github.io/Landing-page-project-practise/'
+        link: 'https://rostyslavl.github.io/Landing-page-project-practise/',
+        logo:'img/globe.png'
     },
     {
         id:2,
         title:'CV Page From Rolling Scopes School FE2021 EUROPE',
         img:'img/rsschool_cv_page.jpg',
-        link: 'https://rostyslavl.github.io/rsschool-cv/'
+        link: 'https://rostyslavl.github.io/rsschool-cv/',
+        logo:'img/globe.png'
     },    
     {
         id:3,
         title:'Previous Portfolio Page',
         img:'img/first_portfolio_page.jpg',
-        link: 'https://firstportfilio.web.app/'
+        link: 'https://firstportfilio.web.app/',
+        logo:'img/globe.png'
     },
     {
         id:4,
         title:'NetFlix Mobile Navigation Landing Page',
         img:'img/netflix_landing_page_clone.jpg',
-        link: 'https://netflixlandingpageclone.web.app/'
+        link: 'https://netflixlandingpageclone.web.app/',
+        logo:'img/globe.png'
     },
     
+]
+export const AllPortfolio = [
+    {
+        id:1,
+        title:'eComerce fullstack MERN App Project',
+        img:'img/eComerce_MERN_Project.jpg',
+        link: 'https://ecomercemernproshopapp.herokuapp.com/',
+        description:'eComerce fullstack MERN App Project done during MERN UDEMY Course',
+        logo:'img/globe.png'
+    },
+    {
+        id:2,
+        title:'Next JS fullstack Music Events App Project',
+        img:'img/next_js_dj_music_events.jpg',
+        link: 'https://ecomercemernproshopapp.herokuapp.com/',
+        description:'Next JS fullstack  App Project done during Next JS  UDEMY Course',
+        logo:'img/globe.png'
+    },
+    {
+        id:3,
+        title:'Next JS Strapi Backend integration for Music Events App Project',
+        img:'img/strapi_backed_dj_music_eventsjpg.jpg',
+        link: 'https://dj-music-events-backend.herokuapp.com/admin/plugins/content-manager/collectionType/application::events.events?page=1&pageSize=10&_sort=name:ASC',
+        description:'Strapi Backend integration into a Next JS App Project done during Next JS  UDEMY Course',
+        logo:'img/globe.png'
+    },
+    {
+        id:4, 
+        title:'JS Isenct Catch Game',
+        img:'img/isenct_catch_game.jpg',
+        link: 'https://rostyslavl.github.io/Isenct-catch-game/',
+        description:'JS Isenct Catch Game Web App Project done during 50 Projects In 50 Days UDEMY Course',
+        logo:'img/globe.png'
+    },
+    {
+        id:5, 
+        title:'React Quiz Creation App',
+        img:'img/react_quiz.jpg',
+        link: 'https://react-quiz-refactored.firebaseapp.com/quiz-creator',
+        description:'React Quiz App Project done during React UDEMY Course',
+        logo:'img/globe.png'
+    },
+    {
+        id:6,
+        title:'Landing Page Project ',
+        img:'img/landing_page_project_practise.jpg',
+        link: 'https://rostyslavl.github.io/Landing-page-project-practise/',
+        description:'Landing Page Practise Project',
+        logo:'img/globe.png'
+    },
+    {
+        id:7,
+        title:'CV Page From Rolling Scopes School FE2021 EUROPE',
+        img:'img/rsschool_cv_page.jpg',
+        link: 'https://rostyslavl.github.io/rsschool-cv/',
+        description:'CV Page Made From Rolling Scopes School FE2021 EUROPE Mnetoring Programe',
+        logo:'img/globe.png'
+    },    
+    {
+        id:8,
+        title:'Previous Portfolio Page',
+        img:'img/first_portfolio_page.jpg',
+        link: 'https://firstportfilio.web.app/',
+        description:'My first HTML5 & CSS3 Portfolio Page',
+        logo:'img/globe.png'
+    },
+    {
+        id:9,
+        title:'NetFlix Mobile Navigation Landing Page',
+        img:'img/netflix_landing_page_clone.jpg',
+        link: 'https://netflixlandingpageclone.web.app/',
+        description:'NetFlix Mobile Navigation Landing  Clone Page Made For Practice',
+        logo:'img/globe.png'
+    },
 ]
