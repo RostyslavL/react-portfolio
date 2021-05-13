@@ -20,7 +20,7 @@
     }
 
     .container{
-        width: 80%;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -55,6 +55,7 @@
         &:hover{
             background-color: $mainColor;
             cursor: pointer;
+            transform: scale(1.125);
             
                 img{
                     opacity: 0.4;

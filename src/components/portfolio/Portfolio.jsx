@@ -81,6 +81,7 @@ export default function Portfolio() {
                         alt={d.title} 
                         onClick={()=> window.open(`${d.link}`, "_blank")}
                         />
+                        <h3>{d.title}</h3>
                     </div>
                 ))} 
             </div>
