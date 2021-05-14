@@ -1,6 +1,7 @@
 import "./works.scss"
 import {AllPortfolio} from '../../data'
 import {useState} from 'react'
+import InfoIcon from '@material-ui/icons/Info'
 
 export default function Works() {
 
@@ -25,9 +26,12 @@ export default function Works() {
                                         </div>
                                         <h2>{d.title}</h2>
                                         <p>
-                                            <i>{d.description}</i>
+                                            <i>{d.description}</i>    
                                         </p>
-                                        <span onClick={()=> window.open(`${d.link}`, "_blank")}>Details</span>
+                                        <span  
+                                            onClick={()=> window.open(`${d.link}`, "_blank") }>
+                                                <InfoIcon/> Details
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="right">
