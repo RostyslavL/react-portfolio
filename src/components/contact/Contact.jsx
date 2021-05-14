@@ -15,14 +15,18 @@ export default function Contact() {
                 </form>
                 <footer className="footer">                 
                     <img 
-                        className="linkein" 
+                        className="footerItem" 
                         src="img/linkein.png" 
                         alt="linkein.png"  
                         onClick={()=> window.open('https://www.linkedin.com/in/rostyslav-l-815b271b0/', "_blank") }/>
                     <img 
-                        className="github"  
+                        className="footerItem"  
                         src="img/github.png" 
                         alt="github.png"  onClick={()=> window.open('https://github.com/RostyslavL', "_blank") }/>
+                    <img 
+                        className="footerItem"  
+                        src="img/facebook.png" 
+                        alt="facebook.png"  onClick={()=> window.open('https://www.facebook.com/rostyslav.logvinov', "_blank") }/>
                 </footer>
         </div>
     )
