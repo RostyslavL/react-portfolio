@@ -6,10 +6,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include mobile{
+        flex-wrap: wrap;   
+        
+    }
     
     .arrow{
         height: 100px;
         position: absolute;
+
+        @include mobile{
+            display: none;
+        }
 
         &.left{
             left: 120px;
@@ -29,6 +38,14 @@
         left:0;
         transition: all 2s ease-in-out;
         
+
+        @include mobile{
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        
         .container{
             width: 100vw;
             display: flex;
@@ -45,6 +62,12 @@
                 border-radius: 20px;
                 overflow: hidden;
                 box-shadow: 15px 15px 26px 10px #000;
+
+                @include mobile{
+                    width: 80%;
+                    height: 100px;
+                    margin: 10px 0;
+                }
 
                 .left{
                     flex:6;
@@ -74,25 +97,45 @@
 
                             img{
                                 width: 25px;
+
+                                @include mobile{
+                                   width: 20px;
+                                 }
                                 
                             }
                         }
                         h2{
                             font-size: 25px;
                             margin-bottom: 10px;
+
+                            @include mobile{
+                                font-size: 10px;
+                             }
                         }
                         h3{
                             font-size: 16px;
+
+                            @include mobile{
+                                font-size: 8px;
+                             }
                             
                         }
                         p{
                             margin-bottom: 10px;
+
+                            @include mobile{
+                               font-size: 5px;
+                            }
                         }
                         span{
                             font-size: 12px;
                             font-weight: 700;
                             text-decoration: underline;
                             cursor: pointer;
+
+                            @include mobile{
+                                font-size: 6px;
+                             }
                         }
                     }
                 }
@@ -109,6 +152,7 @@
                         overflow: hidden;
                         box-shadow: 13px 12px 26px 7px #000;
                         border-radius: 8px;
+
                         
                     }
                 }

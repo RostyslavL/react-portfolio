@@ -2,8 +2,10 @@ import "./contact.scss"
 
 export default function Contact() {
 
+
     const handleSubmit = (e) =>{
         e.preventDefault()
+
     }
     return (
         <div className="contact" id="contact">
@@ -11,7 +13,7 @@ export default function Contact() {
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email"/>
                     <textarea placeholder="Message"></textarea>
-                    <button type="submit"> Send</button>
+                    <button type="submit"> Send</button>                   
                 </form>
                 <footer className="footer">                 
                     <img 

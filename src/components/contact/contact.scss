@@ -7,6 +7,10 @@
     align-items: center;
     justify-content: space-around;
 
+    @include mobile{
+        flex-direction: column;      
+    }
+
 
     h2{
         font-size: 36px;
@@ -26,6 +30,12 @@
             font-size: 16px;
             margin-bottom: 25px;
             box-shadow: 5px 5px 20px 5px #000000;
+
+            @include mobile{
+                width: 200px;
+                height: 10px;
+                margin-bottom: 0;         
+            }
         }
         textarea{
             width: 800px;
@@ -33,6 +43,12 @@
             font-size: 14px;
             margin-bottom: 25px;
             box-shadow: 5px 5px 20px 5px #000000;
+
+            @include mobile{
+                width: 200px;
+                height: 200px;
+                margin-bottom: 0;         
+            }
         }
         button{
             width: 800px;
@@ -43,6 +59,12 @@
             border: none;
             box-shadow: inset -1px 3px 8px 5px $mainColor, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
             cursor: pointer;
+
+            @include mobile{
+                width: 200px;
+                height: 40px;
+                margin-bottom: 0;         
+            }
         }
     }
 
@@ -61,6 +83,11 @@
             box-shadow: 20px 20px 20px -3px rgba(0,0,0,0.71);
             cursor: pointer;
             opacity: .7;
+
+            @include mobile{
+                width: 25px;
+                height: 25px;        
+            }
             
             
         }
@@ -68,7 +95,8 @@
             transform: scale(1.1);
             opacity: 1;
             transition: transform 1s ease-in-out;
-        }        
+        }
+                
     }
 
 }

@@ -15,22 +15,24 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            
+            @include mobile{
+                flex-wrap: wrap;   
+                justify-content: center;          
+            }
 
             .left{
                display: flex;
                align-items: center;
 
-                .logo{
-                    font-size: 40px;
-                    font-weight: 700;
-                    text-decoration: none;
-                    color: inherit;
-                    margin-right: 50px;
-                }
                 .item{
                     display: flex;
                     align-items: center;
                     margin-left: 30px;
+
+                    @include mobile{
+                        display: none;            
+                    }
 
                     .icon{
                         font-size: 20px;
