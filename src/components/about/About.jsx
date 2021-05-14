@@ -1,6 +1,6 @@
-import "./testimonials.scss"
+import "./about.scss"
 
-export default function Testimonials() {
+export default function About() {
     return (
         <div className="testimonials" id="testimonials">
             asd
