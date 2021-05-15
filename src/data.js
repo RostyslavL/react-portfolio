@@ -180,3 +180,47 @@ export const AllPortfolio = [
         logo:'img/globe.png'
     },
 ]
+
+export const  skills =[
+    {
+        img: 'img/html.png',
+        title:'html5',
+        description:'HTML5',
+    },
+    {
+        img: 'img/css.png',
+        title:'css3',
+        description:'CSS3',
+    },
+    {
+        img: 'img/js.png',
+        title:'JavaScript',
+        description:'JavaScript',
+    },
+    {
+        img: 'img/react.png',
+        title:'React JS',
+        description:'React JS',
+    },
+    {
+        img: 'img/node_js.png',
+        title:'Node JS',
+        description:'Node JS',
+    },
+    {
+        img: 'img/mongodb.png',
+        title:'MongoDB',
+        description:'MongoDB',
+    },
+    {
+        img: 'img/git.png',
+        title:'Git',
+        description:'Git',
+    },
+    {
+        img: 'img/next_js.png',
+        title:'Next JS',
+        description:'Next JS',
+    },
+]
+    

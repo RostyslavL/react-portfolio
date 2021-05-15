@@ -1,0 +1,85 @@
+@import '../../global.scss';
+
+
+.skills{
+    background-color: $secondaryColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    
+    h1{
+        font-size: 50px;
+        text-shadow: 40px 16px 12px rgba(0,0,0,0.5);   
+        margin: 50px 0;
+        
+        @include mobile{
+            font-size: 20px;            
+        }
+    }
+
+    ul{
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        text-shadow: 27px 16px 8px #000;
+
+        @include mobile{
+            flex-wrap: wrap;  
+            justify-content: center;          
+            margin: 10px 0;
+        }
+    }
+
+    .container{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        padding: 40px 40px;
+
+        @include mobile{
+            width: 90%;          
+        }
+    }
+
+    .item{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid $mainColor;
+        margin: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        position: relative;
+        transition: all 1s ease-in-out;
+        box-shadow: 20px 10px 10px -3px rgba(0,0,0,0.61);
+
+        @include mobile{
+            width: 100px; 
+            height: 100px;       
+        }
+        
+        h3{
+            position: absolute;
+            font-size: 20px;
+            text-align: center;
+
+            @include mobile{
+                font-size: 10px;
+            }
+        }
+        img{
+            max-width: 80%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 50%;
+            z-index: 1;
+        }
+    }
+}
