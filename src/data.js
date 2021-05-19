@@ -101,7 +101,14 @@ export const frontendPortfolio = [
         id:4,
         title:'NetFlix Mobile Navigation Landing Page',
         img:'img/netflix_landing_page_clone.jpg',
-        link: 'https://netflixlandingpageclone.web.app/',
+        link:'https://netflixlandingpageclone.web.app/',
+        logo:'img/globe.png'
+    },
+    {
+        id:5,
+        title:'Recipes Landing Page Using Tailwind CSS',
+        img:'img/recipes_tailwindcss_page.jpg',
+        link: 'https://rostyslavl.github.io/recipes/',
         logo:'img/globe.png'
     },
     
