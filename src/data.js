@@ -229,5 +229,15 @@ export const  skills =[
         title:'Next JS',
         description:'Next JS',
     },
+    {
+        img: 'img/tailwindcss.jpg',
+        title:'Tailwind Css',
+        description:'Tailwind Css',
+    },
+    {
+        img: 'img/next_js.png',
+        title:'Next JS',
+        description:'Next JS',
+    },
 ]
     
