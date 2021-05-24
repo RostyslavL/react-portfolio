@@ -53,6 +53,14 @@ export const webPortfolio = [
         description:'React Quiz App Project done during React UDEMY Course',
         logo:'img/globe.png'
     },
+    {
+        id:6,
+        title:'Vue JS Task Tracker App',
+        img:'img/vuejs_task_tracker.jpg',
+        link: 'https://rostyslavl.github.io/vue-js-task-tracker/',
+        description:'Vue JS Task Tracker App Made For Practice',
+        logo:'img/globe.png'
+    },
 ]
 
 export const mobilePortfolio = [
@@ -186,6 +194,14 @@ export const AllPortfolio = [
         description:'NetFlix Mobile Navigation Landing  Clone Page Made For Practice',
         logo:'img/globe.png'
     },
+    {
+        id:10,
+        title:'Vue JS Task Tracker App',
+        img:'img/vuejs_task_tracker.jpg',
+        link: 'https://rostyslavl.github.io/vue-js-task-tracker/',
+        description:'Vue JS Task Tracker App Made For Practice',
+        logo:'img/globe.png'
+    },
 ]
 
 export const  skills =[
@@ -233,11 +249,6 @@ export const  skills =[
         img: 'img/tailwindcss.jpg',
         title:'Tailwind Css',
         description:'Tailwind Css',
-    },
-    {
-        img: 'img/next_js.png',
-        title:'Next JS',
-        description:'Next JS',
     },
 ]
     
