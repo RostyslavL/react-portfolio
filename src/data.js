@@ -61,6 +61,14 @@ export const webPortfolio = [
         description:'Vue JS Task Tracker App Made For Practice',
         logo:'img/globe.png'
     },
+    {
+        id:7,
+        title:'React TypeScript Shopping Cart',
+        img:'img/react-typescript-shopping-cart.jpg',
+        link: 'https://rostyslavl.github.io/react-typescript-shopping-cart/',
+        description:'React TypeScript Shopping Cart Made For Practice',
+        logo:'img/globe.png'
+    },
 ]
 
 export const mobilePortfolio = [
@@ -117,6 +125,14 @@ export const frontendPortfolio = [
         title:'Recipes Landing Page Using Tailwind CSS',
         img:'img/recipes_tailwindcss_page.jpg',
         link: 'https://rostyslavl.github.io/recipes/',
+        logo:'img/globe.png'
+    },
+    {
+        id:6,
+        title:'React TypeScript Shopping Cart',
+        img:'img/react-typescript-shopping-cart.jpg',
+        link: 'https://rostyslavl.github.io/react-typescript-shopping-cart/',
+        description:'React TypeScript Shopping Cart Made For Practice',
         logo:'img/globe.png'
     },
     
@@ -200,6 +216,14 @@ export const AllPortfolio = [
         img:'img/vuejs_task_tracker.jpg',
         link: 'https://rostyslavl.github.io/vue-js-task-tracker/',
         description:'Vue JS Task Tracker App Made For Practice',
+        logo:'img/globe.png'
+    },
+    {
+        id:11,
+        title:'React TypeScript Shopping Cart',
+        img:'img/react-typescript-shopping-cart.jpg',
+        link: 'https://rostyslavl.github.io/react-typescript-shopping-cart/',
+        description:'React TypeScript Shopping Cart Made For Practice',
         logo:'img/globe.png'
     },
 ]
