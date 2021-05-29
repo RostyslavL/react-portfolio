@@ -11,6 +11,12 @@ export const fullstackPortfolio = [
         img:'img/next_js_dj_music_events.jpg',
         link: 'https://ecomercemernproshopapp.herokuapp.com/'
     },
+    {
+        id:3,
+        title:'React Video Chat App Project',
+        img:'img/react_video_chat_app.jpg',
+        link: 'https://react-video-comunicator.netlify.app/'
+    },
 ]
 export const webPortfolio = [
     {
@@ -68,6 +74,12 @@ export const webPortfolio = [
         link: 'https://rostyslavl.github.io/react-typescript-shopping-cart/',
         description:'React TypeScript Shopping Cart Made For Practice',
         logo:'img/globe.png'
+    },
+    {
+        id:8,
+        title:'React Video Chat App Project',
+        img:'img/react_video_chat_app.jpg',
+        link: 'https://react-video-comunicator.netlify.app/'
     },
 ]
 
@@ -225,6 +237,12 @@ export const AllPortfolio = [
         link: 'https://rostyslavl.github.io/react-typescript-shopping-cart/',
         description:'React TypeScript Shopping Cart Made For Practice',
         logo:'img/globe.png'
+    },
+    {
+        id:12,
+        title:'React Video Chat App Project',
+        img:'img/react_video_chat_app.jpg',
+        link: 'https://react-video-comunicator.netlify.app/'
     },
 ]
 
