@@ -81,6 +81,24 @@ export const webPortfolio = [
         img:'img/react_video_chat_app.jpg',
         link: 'https://react-video-comunicator.netlify.app/'
     },
+    {
+        id:9,
+        title:'React Music App',
+        img:'img/react_music_app.jpg',
+        link: 'https://determined-morse-83a630.netlify.app/'
+    },
+    {
+        id:10,
+        title:'React Beach Resort Project App',
+        img:'img/react_beach_resort_project.jpg',
+        link: 'https://resort-react-project.netlify.app/'
+    },
+    {
+        id:11,
+        title:'JavaScript Weather App',
+        img:'img/java_script_weather_app.jpg',
+        link: 'https://epic-allen-a743b9.netlify.app/'
+    },
 ]
 
 export const mobilePortfolio = [
@@ -146,6 +164,24 @@ export const frontendPortfolio = [
         link: 'https://rostyslavl.github.io/react-typescript-shopping-cart/',
         description:'React TypeScript Shopping Cart Made For Practice',
         logo:'img/globe.png'
+    },
+    {
+        id:7,
+        title:'React Music App',
+        img:'img/react_music_app.jpg',
+        link: 'https://determined-morse-83a630.netlify.app/'
+    },
+    {
+        id:8,
+        title:'React Beach Resort Project App',
+        img:'img/react_beach_resort_project.jpg',
+        link: 'https://resort-react-project.netlify.app/'
+    },
+    {
+        id:9,
+        title:'JavaScript Weather App',
+        img:'img/java_script_weather_app.jpg',
+        link: 'https://epic-allen-a743b9.netlify.app/'
     },
     
 ]
@@ -243,6 +279,24 @@ export const AllPortfolio = [
         title:'React Video Chat App Project',
         img:'img/react_video_chat_app.jpg',
         link: 'https://react-video-comunicator.netlify.app/'
+    },
+    {
+        id:13,
+        title:'React Music App',
+        img:'img/react_music_app.jpg',
+        link: 'https://determined-morse-83a630.netlify.app/'
+    },
+    {
+        id:14,
+        title:'React Beach Resort Project App',
+        img:'img/react_beach_resort_project.jpg',
+        link: 'https://resort-react-project.netlify.app/'
+    },
+    {
+        id:15,
+        title:'JavaScript Weather App',
+        img:'img/java_script_weather_app.jpg',
+        link: 'https://epic-allen-a743b9.netlify.app/'
     },
 ]
 
