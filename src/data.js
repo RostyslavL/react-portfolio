@@ -79,25 +79,33 @@ export const webPortfolio = [
         id:8,
         title:'React Video Chat App Project',
         img:'img/react_video_chat_app.jpg',
-        link: 'https://react-video-comunicator.netlify.app/'
+        link: 'https://react-video-comunicator.netlify.app/',
+        description:'React Video Chat App Made For Practice',
+        logo:'img/globe.png'
     },
     {
         id:9,
         title:'React Music App',
         img:'img/react_music_app.jpg',
-        link: 'https://determined-morse-83a630.netlify.app/'
+        link: 'https://determined-morse-83a630.netlify.app/',
+        description:'React Music App Made For Practice',
+        logo:'img/globe.png'
     },
     {
         id:10,
         title:'React Beach Resort Project App',
         img:'img/react_beach_resort_project.jpg',
-        link: 'https://resort-react-project.netlify.app/'
+        link: 'https://resort-react-project.netlify.app/',
+        description:'React Beach Resor App Made For Practice',
+        logo:'img/globe.png'
     },
     {
         id:11,
         title:'JavaScript Weather App',
         img:'img/java_script_weather_app.jpg',
-        link: 'https://epic-allen-a743b9.netlify.app/'
+        link: 'https://epic-allen-a743b9.netlify.app/',
+        description:'JavaScript Weather App Made For RSSChool Poland Course',
+        logo:'img/globe.png'
     },
 ]
 
